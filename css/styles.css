@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2/?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*,
+* :after,
+* :before {
+    -webkit-box-sizing: border-box;     
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/*Variable define*/
+:root{
+    --primary-color: #A82C48;
+    --secundary-color: #43121d;
+    --third-color: #f98196;
+    --white-color: #fff;
+    --text-color: #555;
+    --text-gray: #999;
+    --black-color: #000;
+    --primary-font: 'Roboto', sans-serif;
+    --secundary-font: 'Quicksand' sans-serif;
+}
