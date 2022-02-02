@@ -43,3 +43,84 @@ ol {
     --primary-font: 'Roboto', sans-serif;
     --secundary-font: 'Quicksand' sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+/* Custom css design */
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: var(--secundary-color);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    font-family: var(--secundary-font);
+    color: var(--secundary-color);
+    line-height: 3rem;
+}
+
+/* Responsividade */
+@media(max-width: 1024px){
+
+    /* About section */
+
+}
+
+@media(max-width: 991px){
+
+    /* About section */
+
+    /* Nabar brand */
+
+    /* Banner design */
+
+    /* Carousel design */
+
+}
+
+@media(max-width: 767px){
+
+    /* Custom css */
+
+    /* Top banner */
+
+    /* Story section */
+
+    /* Carousel design */
+
+    /* Newslettar */
+
+    /* Footer ink */
+
+}
+
+@media(max-width: 330px){
+
+    /* Carousel design */
+
+}
